@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Optima';
+    src: url('../fonts/optima-webfont.woff2') format('woff2'),
+    url('../fonts/optima-webfont.woff') format('woff'),
+    url('../fonts/optima.ttf') format('truetype'),
+    url('../fonts/optima-webfont.svg#optimanormal') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Optima';
+    src: url('../fonts/optima_medium-webfont.woff2') format('woff2'),
+    url('../fonts/optima_medium-webfont.woff') format('woff'),
+    url('../fonts/Optima Medium.ttf') format('truetype'),
+    url('../fonts/optima_medium-webfont.svg#optimamedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Optima';
+    src: url('../fonts/optima_b-webfont.woff2') format('woff2'),
+    url('../fonts/optima_b-webfont.woff') format('woff'),
+    url('../fonts/Optima_B.ttf') format('truetype'),
+    url('../fonts/optima_b-webfont.svg#optimabold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+

@@ -1,0 +1,287 @@
+/*
+▒█▀▄▀█ █▀▀ █▀▀▄ ░▀░ █▀▀█ 　 ▒█▀▀█ █░░█ █▀▀ █▀▀█ ░▀░ █▀▀ █▀▀
+▒█▒█▒█ █▀▀ █░░█ ▀█▀ █▄▄█ 　 ▒█░▒█ █░░█ █▀▀ █▄▄▀ ▀█▀ █▀▀ ▀▀█
+▒█░░▒█ ▀▀▀ ▀▀▀░ ▀▀▀ ▀░░▀ 　 ░▀▀█▄ ░▀▀▀ ▀▀▀ ▀░▀▀ ▀▀▀ ▀▀▀ ▀▀▀
+*/
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* >>>>>>>> I M P O R T A N T ! <<<<<<<<< */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 767px){
+    #cnCollapseHomepage {
+        position: absolute;
+        width: 100%;
+        margin-top: 42px;
+        background: rgba(255,255,255,1);
+        padding-bottom: 16px;
+        padding-top: 6px;
+        z-index: 22;
+    }
+
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Navbar + Header ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 1310px){
+    ul.cn_main_menu {left: 55px;}
+    ul.cn_main_menu li a {margin-right: 10px;}
+}
+
+@media screen and (max-width: 1210px){
+    ul.cn_main_menu {left: 85px;}
+    ul.cn_main_menu li a {margin-right: 3px; font-size: 1.1rem;}
+}
+
+@media screen and (max-width: 1199px){
+    .header_bgd {left: 60vw;}
+}
+
+@media screen and (max-width: 991px){
+    ul.cn_main_menu {left: 25px;}
+    ul.cn_main_menu li a {margin-right: 0; font-size: 0.9rem;}
+
+    section.tagline_holder article {font-size: 1rem;}
+    button.main_cta_btn {width: 50%;}
+    .header_bgd {background-size: cover !important;}
+}
+
+@media screen and (max-width: 855px){
+    ul.cn_main_menu {left: 65px;}
+}
+
+@media screen and (max-width: 767px){
+    .nav_main_home_logo {width: 160px; top: -45px;}
+
+    .cn_navbar_home {
+        background: rgba(255,255,255,1); left: 0; height: 90px;
+        -webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+        -moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+        box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+    }
+
+    img.headerlogo {display: none;}
+    button.main_cta_btn {width: 25%;}
+
+    .header_bgd {left: 0; height: 285px; top: -20px;}
+
+    ul.cn_main_menu {top: 0; left: 18px;}
+    ul.cn_main_menu li a {font-size: 1.1rem;}
+
+    a.cn_menu_link:before {left: 2%; width: 20%;}
+
+    .header_banner_holder {
+        padding-left: 30px;
+        margin-top: 275px;
+        min-height: 310px;
+        height: auto;
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 555px){
+    button.main_cta_btn {width: 35%;}
+}
+
+@media screen and (max-width: 400px){
+    button.main_cta_btn {width: 45%;}
+}
+
+@media screen and (max-width: 350px){
+    button.main_cta_btn {width: 50%;}
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Our Mission ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .mission_text_holder {
+        position: absolute;
+        right: 56px;
+        top: 50px;
+        width: 34%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .mission_text_holder h2 {font-size: 3rem;}
+}
+
+@media screen and (max-width: 767px){
+    .our_mission_area {min-height: 640px;}
+    .mission_image_holder {position: relative; bottom: -640px;}
+    .mission_image {height: 245px; bottom: 0; left: 0;}
+    .mission_text_holder {position: relative; width: initial; right: initial; padding-left: 30px;}
+}
+
+@media screen and (max-width: 350px){
+    .mission_text_holder {top: 30px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== News Slider ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .date_tab {width: 48%;}
+    .n_slide {width: 94% !important;}
+    a.news_title {font-size: 1.33rem;}
+    h6.author_and_source {font-size: 1rem;}
+}
+
+@media screen and (max-width: 991px){
+    .n_slide {width: 85% !important;}
+}
+
+@media screen and (max-width: 767px){
+    .news_slider_area {padding-left: 30px;}
+}
+
+@media screen and (max-width: 600px){
+    .news_slider_area {min-height: 380px;}
+    .n_slide {width: 96% !important;}
+}
+
+@media screen and (max-width: 400px){
+    h2.cn_title {font-size: 3rem;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Patient Portal ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .pp_text_holder h2 {font-size: 2.8rem;}
+    .pp_image {right: -35%;}
+    button.pp_btn {width: 67%;}
+}
+
+@media screen and (max-width: 991px){
+    .pp_text_holder {top: 30px;}
+    button.pp_btn {width: 86%;}
+}
+
+@media screen and (max-width: 767px){
+    .pp_area {height: 600px;}
+    .pp_image {height: 275px; bottom: -110px; right: -21%;}
+
+    .pp_text_holder {padding-left: 30px;}
+    button.pp_btn {width: 275px;}
+}
+
+@media screen and (max-width: 643px) {
+    .pp_area {height: 643px;}
+}
+
+@media screen and (max-width: 413px) {
+    .pp_area {height: 700px;}
+}
+
+@media screen and (max-width: 393px){
+    .pp_image {right: -19%;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Contact Widgets ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .secondmap {left: 18px;}
+    button.locattions_btn {width: 200px;}
+}
+
+@media screen and (max-width: 991px){
+    .maps_widget_holder {padding-left: 65px;}
+    .phone_pretext {width: 99%;}
+    button.locattions_btn {width: 220px;}
+}
+
+@media screen and (max-width: 767px){
+    .contact_widgets_area {padding-left: 20px;}
+    .fb_widget_holder {float: left;}
+    .twitter_widget_holder {float: left;}
+
+    .maps_widget_holder {padding-left: 20px; top: 25px; clear: both;}
+
+    .firstmap {margin-bottom: 40px;}
+    .secondmap {left: 0;}
+}
+
+@media screen and (max-width: 632px){
+    .twitter_widget_holder {margin-bottom: 32px;}
+}
+
+@media screen and (max-width: 360px){
+    .twitter_widget_holder {float: none;}
+    .fb_widget_holder {float: none;}
+}
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Footer ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    .cn_footer {width: 80%;}
+}
+
+@media screen and (max-width: 767px){
+    .cn_footer {width: 100%;}
+}
+
+@media screen and (max-width: 515px){
+    ul.footer_menu li a {font-size: 1rem;}
+}
+
+@media screen and (max-width: 430px){
+    ul.footer_menu li a {font-size: 0.88rem;}
+}
+
+@media screen and (max-width: 395px){
+    ul.footer_menu li {padding: 0 0.5em;}
+}
+
+@media screen and (max-width: 345px){
+    ul.footer_menu li {padding: 0 0.3em;}
+}
