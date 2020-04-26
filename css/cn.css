@@ -946,10 +946,19 @@ ul.cn_inner_menu li a {
     transition: all 0.3s ease;
 }
 
+
+
+
+
+
+/* ============= */
+/* =========== ABOUT US (INNER) =========== */
+/* ============= */
+
 .title_and_separator_holder {
     position: relative;
     top: 48px;
-    left: 115px;
+    left: 60px;
 }
 
 h2.inner_header_title {
@@ -962,12 +971,13 @@ h2.inner_header_title {
 
 .inner_header_image {
     position: absolute;
-    width: 66vw;
-    left: -140px;
+    width: 51vw;
+    left: 0;
     top: 0;
     z-index: 10;
     height: 210px;
     border-top-left-radius: 50px;
+    /*background-position: center !important;*/
 }
 
 .footerpusher {
@@ -986,7 +996,7 @@ h2.inner_header_title {
 .about_text_holder {
     position: relative;
     display: block;
-    width: 78%;
+    width: 87%;
     margin: 0 auto;
 }
 
@@ -1001,7 +1011,7 @@ p.about_text {
     display: block;
     padding-top: 25px;
     position: relative;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -1021,8 +1031,9 @@ p.about_text {
     position: relative;
     top: 34px;
     display: block;
-    width: 78%;
+    width: 87%;
     margin: 0 auto;
+    clear: both;
 }
 
 ul.kidney_conditions {
@@ -1047,3 +1058,142 @@ ul.kidney_conditions li > span {
 
 
 
+/* ============= */
+/* =========== PATIENT INFORMATION (INNER) =========== */
+/* ============= */
+
+.patient_info_bgd_position {
+    background-position: 0 -171px !important
+}
+
+.form_download_holder {
+    clear: both;
+    padding-top: 32px;
+    margin-bottom: 10px;
+}
+
+.form_download_holder h3 {
+    font-size: 1.429rem;
+    font-weight: 700;
+    color: #3F003E;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.form_download_holder p {
+    position: relative;
+    font-size: 1.143rem;
+    color: #3F003E;
+    text-align: left;
+}
+
+a.pdf_downloader {
+    color: #2F8448;
+    font-size: 1.143rem;
+    font-weight: 700;
+    text-align: left;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a.pdf_downloader:hover, a.pdf_downloader:focus {
+    text-decoration: none;
+    color: #236034;
+}
+
+a.pdf_downloader:hover i {
+    color: #236034;
+}
+
+a.pdf_downloader i {
+    color: #2F8448;
+    font-size: 1.9rem;
+    position: relative;
+    margin-right: 6px;
+    top: 3px;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+
+/* ============= */
+/* =========== PATIENT INFORMATION (INNER) =========== */
+/* ============= */
+
+.docs_main_content_area {
+    min-height: 600px;
+    height: auto;
+    display: block;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    background: #f9f9f9;
+}
+
+.all_doctors_list_holder {
+    padding-top: 55px;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.solo_doctor_holder {
+    display: block;
+    min-height: 230px;
+    margin-bottom: 65px;
+    height: auto;
+    clear: both;
+    position: relative;
+}
+
+.doctor {
+    display: block;
+    position: relative;
+    height: 210px;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.doc_info {
+    padding-top: 0;
+    margin-bottom: 50px;
+}
+
+h3.doc_name {
+    font-family: 'Optima', serif;
+    font-size: 2.1rem;
+    color: #3F003E;
+    text-align: left;
+    margin-top: 2px;
+}
+
+p.doc_bio {
+    position: relative;
+    font-size: 1.143rem;
+    color: #3F003E;
+    text-align: left;
+}
+
+hr.doc_name_separator {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 4px;
+    bottom: 9px;
+    text-align: left;
+    background-color: #3F003E;
+    border-color: transparent;
+}

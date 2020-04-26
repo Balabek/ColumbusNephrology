@@ -293,18 +293,24 @@
 
 
 
+/* =-=-=-=-=-=-=-=-= */
+/* =-=-=-=-=-=-=-=-= */
+/* =-=-=-=-=-=-=-=-= */
 
-/* =-=-=-=-=-=-=-=-= */
-/* =-=-=-=-=-=-=-=-= */
-/* =-=-=-=-=-=-=-=-= */
+
+
+
+
 
 /* ============= */
-/* =========== NAVIGATION (INNER) =========== */
+/* =========== ABOUT (INNER) =========== */
 /* ============= */
 
 @media screen and (max-width: 991px){
     ul.cn_inner_menu li a {font-size: 1rem; margin-right: 0;}
     .inner_header_image {left: 30px;}
+
+    /*.about_bgd_position {background-position: center !important;}*/
 }
 
 @media screen and (max-width: 825px){
@@ -312,8 +318,10 @@
 }
 
 @media screen and (max-width: 767px){
+    h2.inner_header_title {font-size: 2.5rem;}
+
     .title_and_separator_holder {left: 15px;}
-    .inner_header_image {top: -130px; left: 50%;}
+    .inner_header_image {top: -116px; left: 50%;}
 
     .about_image {margin-bottom: 22px;}
 
@@ -342,6 +350,27 @@
 
 
 
+/* ============= */
+/* =========== PATIENT INFORMATION (INNER) =========== */
+/* ============= */
+
+@media screen and (max-width: 1199px){
+    .patient_info_bgd_position {background-position: center !important;}
+}
 
 
 
+
+
+/* ============= */
+/* =========== PHYSICIANS (INNER) =========== */
+/* ============= */
+
+@media screen and (max-width: 767px){
+    .doc_face {margin-bottom: 14px;}
+    .doctor {height: 325px; width: 100%;}
+}
+
+@media screen and (max-width: 520px){
+    .doctor {height: 225px;}
+}
