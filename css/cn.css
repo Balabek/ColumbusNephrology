@@ -1197,3 +1197,142 @@ hr.doc_name_separator {
     background-color: #3F003E;
     border-color: transparent;
 }
+
+
+
+
+
+/* ============= */
+/* =========== CONTACT US (INNER) =========== */
+/* ============= */
+
+.all_location_holder {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main_locations {
+    padding-top: 45px;
+}
+
+h2.locations_title {
+    font-family: "Optima", serif;
+    font-weight: 500;
+    font-size: 3.429rem;
+    color: #3F003E;
+    text-align: left;
+}
+
+.main_mapbox {
+    padding-left: 0;
+}
+
+.other_locations_holder {
+    clear: both;
+    display: block;
+    position: relative;
+    margin-top: 45%;
+}
+
+.other_locations_list {
+    padding-left: 0;
+}
+
+.other_loc {
+    margin-bottom: 20px;
+}
+
+.other_loc small {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #3F003E;
+    text-align: left;
+    width: 75%;
+    display: inline-block;
+}
+
+.other_loc h6 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #3F003E;
+    text-align: left;
+    width: 75%;
+    display: inline-block;
+}
+
+
+
+
+
+/* ============= */
+/* =========== RESOURCES (INNER) =========== */
+/* ============= */
+
+a.resourcelink {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #3F003E;
+    text-align: left;
+    display: block;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.all_resources_holder {
+    padding-top: 55px;
+}
+
+a.resourcelink:hover, a.resourcelink.focus {
+    text-decoration: none;
+    color: rgba(63, 0, 62, 0.7);
+}
+
+.resource {
+    margin-bottom: 62px;
+}
+
+.resource p {
+    position: relative;
+    font-size: 1.143rem;
+    color: #3F003E;
+    text-align: left;
+}
+
+hr.resource_separator {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 4px;
+    bottom: 9px;
+    text-align: left;
+    background-color: #3F003E;
+    border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

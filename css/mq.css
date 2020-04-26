@@ -374,3 +374,39 @@
 @media screen and (max-width: 520px){
     .doctor {height: 225px;}
 }
+
+
+
+
+
+/* ============= */
+/* =========== LOCATIONS (INNER) =========== */
+/* ============= */
+
+@media screen and (max-width: 991px){
+    .main_mapbox {margin-bottom: 50px;}
+}
+
+@media screen and (max-width: 767px){
+    .other_locations_holder {margin-top: 16%;}
+}
+
+@media screen and (max-width: 360px){
+    h2.locations_title {font-size: 2.8rem;}
+}
+
+
+
+
+
+/* ============= */
+/* =========== RESOURCES (INNER) =========== */
+/* ============= */
+
+@media screen and (max-width: 430px){
+    a.resourcelink {font-size: 1.5rem;}
+}
+
+@media screen and (max-width: 350px){
+    a.resourcelink {font-size: 1.36rem;}
+}
