@@ -21,6 +21,10 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="manifest" href="img/favicon/favicon.ico">
     <!-- Required meta tags -->
+
+    <!-- Stop Safari from detecting and enabling phone number links -->
+    <meta name=”format-detection” content=”telephone=no”>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0">
@@ -58,7 +62,7 @@
             </a>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="cnCollapseHomepage">
-                <ul class="nav navbar-nav cn_main_menu navbar-left">
+                <ul class="nav navbar-nav cn_main_menu">
                     <li><a class="cn_menu_link" href="#">About Us</a></li>
                     <li><a class="cn_menu_link" href="#">Patient Information</a></li>
                     <li><a class="cn_menu_link" href="#">Physicians</a></li>
@@ -202,15 +206,15 @@
                         <hr class="miniseparator">
                     </section>
                 <div class="col-sm-6 twitter_widget_holder">
-                    <div class="twitter_widget">
-                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                        <div class="elfsight-app-a8711c51-a15e-488e-8962-62006eba3f84"></div>
+                    <div class="twitter_widget blank">
+                        <!--<script src="https://apps.elfsight.com/p/platform.js" defer></script>-->
+                        <!--<div class="elfsight-app-a8711c51-a15e-488e-8962-62006eba3f84"></div>-->
                     </div>
                 </div>
                 <div class="col-sm-6 fb_widget_holder">
-                    <div class="fb_widget">
-                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                        <div class="elfsight-app-173ada0f-b3d5-4d3a-906a-b4e2e1216150"></div>
+                    <div class="fb_widget blank">
+                        <!--<script src="https://apps.elfsight.com/p/platform.js" defer></script>-->
+                        <!--<div class="elfsight-app-173ada0f-b3d5-4d3a-906a-b4e2e1216150"></div>-->
                     </div>
                 </div>
                 </div>
@@ -226,7 +230,7 @@
                     <section class="phone_number_holder">
                         <section class="phone_number">
                             <span class="phone_icon"></span>
-                            <p class="actual_number">614-224-4200</p>
+                            <a href="tel:614-224-4200" class="actual_number">614-224-4200</a>
                         </section>
                     </section>
                     <div class="two_maps_holder">

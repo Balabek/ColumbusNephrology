@@ -18,6 +18,7 @@
         padding-bottom: 16px;
         padding-top: 6px;
         z-index: 22;
+        overflow-x: hidden;
     }
 
 }
@@ -91,12 +92,8 @@
     button.main_cta_btn {width: 35%;}
 }
 
-@media screen and (max-width: 400px){
-    button.main_cta_btn {width: 45%;}
-}
-
-@media screen and (max-width: 350px){
-    button.main_cta_btn {width: 50%;}
+@media screen and (max-width: 430px) {
+    button.main_cta_btn {width: 180px; margin-bottom: 22px;}
 }
 
 
@@ -232,8 +229,8 @@
 
 @media screen and (max-width: 767px){
     .contact_widgets_area {padding-left: 20px;}
-    .fb_widget_holder {float: left;}
-    .twitter_widget_holder {float: left;}
+    /*.fb_widget_holder {float: left;}*/
+    /*.twitter_widget_holder {float: left;}*/
 
     .maps_widget_holder {padding-left: 20px; top: 25px; clear: both;}
 
@@ -243,6 +240,12 @@
 
 @media screen and (max-width: 632px){
     .twitter_widget_holder {margin-bottom: 32px;}
+}
+
+@media screen and (max-width: 460px){
+    .fb_widget_holder {padding-right: 18px;}
+    .twitter_widget_holder {padding-right: 18px;}
+    .map_holder {padding-right: 22px;}
 }
 
 @media screen and (max-width: 360px){
@@ -285,3 +288,60 @@
 @media screen and (max-width: 345px){
     ul.footer_menu li {padding: 0 0.3em;}
 }
+
+
+
+
+
+
+/* =-=-=-=-=-=-=-=-= */
+/* =-=-=-=-=-=-=-=-= */
+/* =-=-=-=-=-=-=-=-= */
+
+/* ============= */
+/* =========== NAVIGATION (INNER) =========== */
+/* ============= */
+
+@media screen and (max-width: 991px){
+    ul.cn_inner_menu li a {font-size: 1rem; margin-right: 0;}
+    .inner_header_image {left: 30px;}
+}
+
+@media screen and (max-width: 825px){
+    ul.cn_inner_menu {right: -22px;}
+}
+
+@media screen and (max-width: 767px){
+    .title_and_separator_holder {left: 15px;}
+    .inner_header_image {top: -130px; left: 50%;}
+
+    .about_image {margin-bottom: 22px;}
+
+    ul.cn_inner_menu {float: none; top: 0;}
+    ul.cn_inner_menu li a {font-size: 1.1rem;}
+
+    .about_text_holder_2 {top: 12px;}
+}
+
+@media screen and (max-width: 680px){
+    .inner_header_image {left: 62%;}
+}
+
+@media screen and (max-width: 630px){
+    h2.inner_header_title {font-size: 2rem;}
+    .title_and_separator_holder {top: 105px;}
+    .inner_header_image {
+        top: -109px; height: 105px; width: 100%; left: 0;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
