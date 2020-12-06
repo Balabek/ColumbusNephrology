@@ -342,7 +342,7 @@ button.main_cta_btn:hover, button.main_cta_btn:focus {
 .mission_text_holder h2 {
     font-family: "Optima", serif;
     font-weight: 500;
-    font-size: 3.429rem;
+    font-size: 2.7rem;
     color: #ffffff;
     text-align: left;
 }
@@ -404,7 +404,7 @@ button.mission_btn:hover, button.mission_btn:focus {
 h2.cn_title {
     font-family: "Optima", serif;
     font-weight: 500;
-    font-size: 3.429rem;
+    font-size: 2.7rem;
     color: #3F003E;
     text-align: left;
 }
@@ -500,7 +500,7 @@ h6.author_and_source {
 .pp_text_holder h2 {
     font-family: "Optima", serif;
     font-weight: 500;
-    font-size: 3.429rem;
+    font-size: 2.7rem;
     color: #ffffff;
     text-align: left;
 }
@@ -964,7 +964,7 @@ ul.cn_inner_menu li a {
 h2.inner_header_title {
     font-family: "Optima", serif;
     font-weight: 500;
-    font-size: 3.429rem;
+    font-size: 2.7rem;
     color: #ffffff;
     text-align: left;
 }

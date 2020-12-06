@@ -117,7 +117,7 @@
 }
 
 @media screen and (max-width: 991px){
-    .mission_text_holder h2 {font-size: 3rem;}
+    .mission_text_holder h2 {font-size: 2.5rem;}
 }
 
 @media screen and (max-width: 767px){
@@ -162,7 +162,7 @@
 }
 
 @media screen and (max-width: 400px){
-    h2.cn_title {font-size: 3rem;}
+    h2.cn_title {font-size: 2.2rem;}
 }
 
 
@@ -176,7 +176,7 @@
 /* >>>>> SM/XS <<<<< */
 
 @media screen and (max-width: 1199px){
-    .pp_text_holder h2 {font-size: 2.8rem;}
+    .pp_text_holder h2 {font-size: 2.5rem;}
     .pp_image {right: -35%;}
     button.pp_btn {width: 67%;}
 }
@@ -188,18 +188,18 @@
 
 @media screen and (max-width: 767px){
     .pp_area {height: 600px;}
-    .pp_image {height: 275px; bottom: -110px; right: -21%;}
+    .pp_image {height: 285px; bottom: -110px; right: -21%;}
 
     .pp_text_holder {padding-left: 30px;}
     button.pp_btn {width: 275px;}
 }
 
-@media screen and (max-width: 643px) {
-    .pp_area {height: 643px;}
+@media screen and (max-width: 650px) {
+    .pp_area {height: 605px;}
 }
 
 @media screen and (max-width: 413px) {
-    .pp_area {height: 700px;}
+    .pp_area {height: 650px;}
 }
 
 @media screen and (max-width: 393px){
@@ -332,17 +332,17 @@
 }
 
 @media screen and (max-width: 680px){
-    .inner_header_image {left: 62%;}
+    .inner_header_image {left: 50%;}
 }
 
 @media screen and (max-width: 630px){
     h2.inner_header_title {font-size: 2rem;}
-    .title_and_separator_holder {top: 105px;}
+    .title_and_separator_holder {top: 205px;}
     .inner_header_image {
-        top: -109px; height: 105px; width: 100%; left: 0;
-        border-top-right-radius: 50px;
+        top: -109px; height: 200px; width: 100%; left: 0;
         border-top-left-radius: 0;
     }
+    .cn_inner_header {height: 310px;}
 }
 
 
@@ -366,17 +366,40 @@
 /* =========== PHYSICIANS (INNER) =========== */
 /* ============= */
 
+@media screen and (max-width: 1126px){
+    .inner_header_image.physicians_bgd {width: 60vw;}
+}
+
+@media screen and (max-width: 990px){
+    .inner_header_image.physicians_bgd {width: 68vw; left: -55px;}
+}
+
+@media screen and (max-width: 820px){
+    .inner_header_image.physicians_bgd {width: 77vw; left: -110px;}
+}
+
 @media screen and (max-width: 767px){
+    .inner_header_image.physicians_bgd {width: 87vw; left: 194px;}
+
     .doc_face {margin-bottom: 14px;}
     .doctor {height: 325px; width: 100%;}
+}
+
+@media screen and (max-width: 630px){
+    .inner_header_image.physicians_bgd {width: 122vw; left: 0;}
 }
 
 @media screen and (max-width: 520px){
     .doctor {height: 225px;}
 }
 
+@media screen and (max-width: 472px){
+    .inner_header_image.physicians_bgd {height: 170px;}
+}
 
-
+@media screen and (max-width: 380px){
+    .inner_header_image.physicians_bgd {height: 130px;}
+}
 
 
 /* ============= */
